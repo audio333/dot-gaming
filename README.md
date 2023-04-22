@@ -7,7 +7,7 @@
 * [vkbasalt](https://github.com/DadSchoorse/vkBasalt)
 
 ### Steam Launch Options
-MANGOHUD=1 ENABLE_VKBASALT=1 %command%
+MANGOHUD_CONFIG="cpu_temp,gpu_temp,vkbasalt" mangohud ENABLE_VKBASALT=1 %command%
 
 ### DEB
 * [amd driver](https://www.amd.com/en/support/linux-drivers)
